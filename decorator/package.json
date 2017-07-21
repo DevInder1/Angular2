@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "excercises",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "bundle": "tsc --outfile app.js circleMath.ts rectangleMath.ts app.ts",
+    "refbundle": "tsc app.ts --outFile app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "systemjs": "^0.20.12"
+  }
+}
